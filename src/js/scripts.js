@@ -23,7 +23,7 @@
       }, 16000);
       
       //menu
-      $('.fa-info').click(function() {
+      $('.fa-paper-plane-o').click(function() {
         $('#form').slideToggle().css('display','flex');
       });
     });
