@@ -19,7 +19,7 @@
       // fade intro into main content
       setTimeout(function() {
         $('.intro').css('display','none');
-        $('#mainContent').css('display','block').hide().fadeIn();
+        $('.nav').css('display','block').hide().fadeIn();
       }, 16000);
       
       //menu
