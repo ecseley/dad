@@ -82,6 +82,28 @@
 		position: relative;
 		
 		z-index: 2;
+
+		// Info
+		.info {
+			display: none;
+			max-width: 100%;
+			background: rgba(255,255,255,0.5);
+			padding: 2em;
+			margin: 0 auto;
+			border-radius: 10px;
+			width: 500px;
+			height: 100%;
+			top: 4em;
+			position: relative;
+
+			img {
+				display: block;
+				margin: 0 auto;
+				padding: 15px;
+				width: 100%;
+			}
+
+		}
 		
 
 		// RSVP Form

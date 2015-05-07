@@ -25,6 +25,12 @@
       //menu
       $('.fa-paper-plane-o').click(function() {
         $('#form').slideToggle().css('display','flex');
+        $(this).toggleClass('active');
+      });
+
+      $('.fa-info').click(function() {
+        $('.info').slideToggle();
+        $(this).toggleClass('active');
       });
     });
   });
