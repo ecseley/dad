@@ -1,0 +1,45 @@
+body {
+    .thankyou {
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            max-width: 50%;
+            display: block;
+            font-size: 7em;
+            color: rgba(193, 28, 19, .5);
+            text-align: center;
+            animation: heart 1.5s infinite;
+        }
+
+        h1 {
+            max-width: 50%;
+            text-align: center;
+            font-size: 2em;
+            margin-left: 20px;
+            color: #fff;
+        }
+    }
+
+    @keyframes heart {
+        0% {
+        transform: scale(1.5);
+        }
+        20% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.3);
+        }
+        70% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.5);
+        }
+
+    }
+}
